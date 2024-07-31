@@ -79,7 +79,7 @@
 }
 
 .description {
-  margin: 100px 0;
+  padding-top: 100px;
   /* background-color: #f2f2f2; */
   display: flex;
   justify-content: center;
@@ -121,14 +121,20 @@
 }
 
 .digits {
-  margin: 100px 0;
-  display: flex;
+  padding: 100px 0;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
+}
+
+/* a mix for the ability to center headings both in digits and kaufman sections */
+.content__section {
+  margin: 0 auto;
 }
 
 .section-title {
-  margin: 0 0 20px;
+  /* margin: 0; */
+  padding-bottom: 20px;
   width: 60%;
   text-align: center;
   line-height: 69px;
@@ -137,12 +143,17 @@
 }
 
 .section-subtitle {
-  margin: 0;
+  /* margin: 0; */
   width: 60%;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+.section-title_theme_dark,
+.section-subtitle_theme_dark {
+  color: white;
 }
 
 .table {
@@ -158,6 +169,7 @@
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  z-index: 1;
 }
 
 /* including elements with key-value modifiers */
@@ -189,14 +201,13 @@
 .feynman {
   height: 790px;
   position: relative;
-  margin: 100px 0;
+  padding-top: 100px;
   background: no-repeat bottom left/867px 637px url(../images/feynman.png),
     #f2f2f2;
 }
 
 .feynman__title {
   width: 775px;
-  padding-top: 100px;
   margin: 0 auto 70px;
   text-align: center;
   line-height: 1.15;
@@ -224,5 +235,15 @@
 
 .kaufman {
   background-color: #1f1f1f;
+  padding: 90px 0;
+  position: relative;
   overflow: hidden;
+}
+
+.kaufman__triangle {
+  width: 660px;
+  height: 636px;
+  position: absolute;
+  top: 0;
+  right: -124px;
 }
