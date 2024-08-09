@@ -1,0 +1,14 @@
+.kaufman {
+  background-color: #1f1f1f;
+  padding: 90px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.kaufman__triangle {
+  width: 660px;
+  height: 636px;
+  position: absolute;
+  top: 0;
+  right: -124px;
+}

@@ -1,0 +1,13 @@
+.logo_place_header {
+  width: 164px;
+  height: 31px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}

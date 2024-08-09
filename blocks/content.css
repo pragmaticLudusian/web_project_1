@@ -1,0 +1,4 @@
+/* a mix for the ability to center headings both in digits and kaufman sections */
+.content__section {
+  margin: 0 auto;
+}
