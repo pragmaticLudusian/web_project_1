@@ -3,6 +3,8 @@
   padding: 90px 0;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .kaufman__triangle {
