@@ -1,5 +1,7 @@
 .oakley {
   padding-top: 160px;
-  display: flex;
-  justify-content: center;
+}
+
+.oakley__two-columns {
+  margin: 0 auto;
 }
