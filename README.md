@@ -7,7 +7,12 @@ This is a web development project - a rather previous revision - from [TripleTen
 - Semantic HTML5
 - CSS animations
 - The BEM methodology (block pages & flat files)
+- Video embeds
 
 ## Plans for improvement
 
-- Watch this space...
+- More video learning materials and recommendations
+- Registration forms
+- Custom fonts
+- Dark Mode theming
+- and much more! Watch this space...
