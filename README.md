@@ -17,6 +17,4 @@ This is a web development project - a rather previous revision - from [TripleTen
 - Dark Mode theming
 - and much more! Watch this space...
 
-## ~~Installation~~
-
-Simply extract the code in the main branch from the ZIP archive and run `index.html`.
+## [Link to website](https://pragmaticLudusian.github.io/web_project_1)
